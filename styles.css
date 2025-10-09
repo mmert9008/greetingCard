@@ -12,7 +12,9 @@ body {
   margin: 0 auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px gray;
-  transition: transform 0.3s, background-color 0.3s ease
+  transition:
+    transform 0.3s,
+    background-color 0.3s ease;
 }
 
 .card:hover {
@@ -66,7 +68,6 @@ h1::after {
   color: crimson;
 }
 
-
 section {
   margin: 20px auto;
   max-width: 600px;
@@ -80,6 +81,6 @@ section:target {
   display: block;
 }
 
-section:hover{
+section:hover {
   transform: skewX(10deg);
 }
